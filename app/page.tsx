@@ -37,7 +37,7 @@ export default function Home() {
               { num: "10", label: "年行业经验" },
               { num: "4", label: "家企业" },
               { num: "9+", label: "大型项目交付" },
-              { num: "200+", label: "生态产品上线" },
+              { num: "3", label: "行业领域深耕" },
             ].map((s) => (
               <div key={s.label}>
                 <div className="text-3xl font-light">{s.num}</div>
