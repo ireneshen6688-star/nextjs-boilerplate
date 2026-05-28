@@ -32,19 +32,7 @@ export default function Home() {
             {profileData.title}<span className="mx-3 text-[#D1D5DB]">·</span>{profileData.subtitle}
           </p>
           <p className="text-base text-[#6B7280] leading-relaxed max-w-2xl mt-8 mb-12">{profileData.intro}</p>
-          <div className="flex flex-wrap gap-12 mb-12">
-            {[
-              { num: "10", label: "年行业经验" },
-              { num: "4", label: "家企业" },
-              { num: "9+", label: "大型项目交付" },
-              { num: "3", label: "行业领域深耕" },
-            ].map((s) => (
-              <div key={s.label}>
-                <div className="text-3xl font-light">{s.num}</div>
-                <div className="text-xs text-[#9CA3AF] tracking-widest uppercase mt-1">{s.label}</div>
-              </div>
-            ))}
-          </div>
+
           <div className="flex flex-wrap gap-3">
             <a href="#experience" className="inline-flex items-center gap-2 px-6 py-2.5 bg-[#111111] text-white text-sm rounded-full hover:bg-[#333] transition-colors">
               查看经历
