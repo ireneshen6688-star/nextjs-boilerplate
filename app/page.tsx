@@ -12,7 +12,6 @@ export default function Home() {
             <a href="#skills" className="hover:text-[#111111] transition-colors">能力</a>
             <a href="#experience" className="hover:text-[#111111] transition-colors">经历</a>
             <a href="#keywords" className="hover:text-[#111111] transition-colors">标签</a>
-            <a href={`mailto:${profileData.contact.email}`} className="px-4 py-1.5 bg-[#111111] text-white text-xs rounded-full hover:bg-[#333] transition-colors">联系我</a>
           </div>
         </div>
       </nav>
@@ -130,22 +129,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="border-t border-[#E5E7EB] py-12">
-        <div className="max-w-6xl mx-auto px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <div>
-            <p className="text-sm font-medium">{profileData.name}</p>
-            <p className="text-xs text-[#9CA3AF] mt-0.5">{profileData.title} · {profileData.subtitle}</p>
-          </div>
-          <div className="flex items-center gap-6 text-sm text-[#9CA3AF]">
-            <a href={`mailto:${profileData.contact.email}`} className="hover:text-[#111111] transition-colors">Email</a>
-            <span className="text-[#E5E7EB]">·</span>
-            <a href={profileData.contact.linkedin} className="hover:text-[#111111] transition-colors">LinkedIn</a>
-            <span className="text-[#E5E7EB]">·</span>
-            <a href={profileData.contact.github} className="hover:text-[#111111] transition-colors">GitHub</a>
-          </div>
-          <p className="text-xs text-[#D1D5DB]">© 2025 {profileData.name}</p>
-        </div>
-      </footer>
+
 
     </div>
   );
