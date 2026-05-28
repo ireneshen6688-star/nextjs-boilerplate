@@ -40,9 +40,7 @@ export default function Home() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
             </a>
-            <a href={`mailto:${profileData.contact.email}`} className="inline-flex items-center gap-2 px-6 py-2.5 border border-[#E5E7EB] text-[#6B7280] text-sm rounded-full hover:border-[#111111] hover:text-[#111111] transition-colors">
-              发送邮件
-            </a>
+
           </div>
         </div>
       </section>
